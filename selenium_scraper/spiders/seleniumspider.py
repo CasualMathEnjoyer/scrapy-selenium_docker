@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger('selenium.webdriver.remote.remote_connection')
 logger.setLevel(logging.WARNING)
 
-class ScrapingClubSpider(scrapy.Spider):
+class SeleniumSpider(scrapy.Spider):
     name = "seleniumspider"
     start_url = "https://www.sreality.cz/hledani/prodej/byty?strana="
     currect_url = ""
