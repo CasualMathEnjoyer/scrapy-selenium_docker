@@ -19,7 +19,7 @@ class SeleniumSpider(scrapy.Spider):
     start_url = "https://www.sreality.cz/hledani/prodej/byty?strana="
     currect_url = ""
     entries_scraped = 0
-    max_page = 2
+    max_page = 25
 
     def start_requests(self):
         start_urls = []
